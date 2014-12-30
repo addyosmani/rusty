@@ -1,0 +1,14 @@
+[package]
+
+name = "rusty"
+version = "0.0.1"
+authors = ["Addy Osmani <addyosmani@gmail.com>"]
+tags = [toy]
+
+[[bin]]
+
+name = "rusty"
+path = "src/main.rs"
+
+[dependencies.image]
+git = "https://github.com/PistonDevelopers/image"
